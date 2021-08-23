@@ -270,59 +270,39 @@ footer {
   }
   
 }
+/** ส่วนของ cart **/
 h6{
-  font-family: "Barlow";
+
   font-weight: 500;
   font-style: normal;
   font-size: 40px;
   line-height: 36px;
   letter-spacing: 0.15px;
   color: #000000;
-  left
-
 }
 .img-cart img
 {
   width: 300px;
-  
 }
 .img-cart{
-  background-color: deepskyblue;
   margin-right: -400px;
 }
-.img-cart2{
-  background-color: deeppink;
-}
-.cart-content{
-  
-  background-color: rgb(231, 255, 20);
-}
-.cart-right{
-  background-color: #B02B2B;
-  
-  
-  
-  
-  
-}
-.cart-left{
-  background-color: aqua;
-  flex-basis: 575px;
-  
-  
 
+.cart-right{
+  background-color: #F5F5F5;
+}
+
+.cart-left{
+  flex-basis: 575px;
 }
 .h9
 {
 
-  font-family: Barlow;
-  font-style: normal;
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   color: #000000;
-  padding-left: 50px;
-
-
+  padding-left: 10px;
+  Font-style: Medium
 
 }
 
@@ -337,13 +317,76 @@ h6{
   box-sizing: border-box;
   text-align: left;
 }
-.siz{
-  background-color: rgb(9, 255, 0);
-}
-.quan{
-  background-color: darkorange;
-}
+
 .cart-drop{
   width: 500px;
+  margin-top: 30px;
+}
+.textname
+{
+  margin-top: -30px;
+}
+.remove
+{
+  margin-top: 18px;
+ text-decoration: #B02B2B; 
+}
+.sub
+{
+  margin-top: 20px;
+}
+.subtotal
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  padding-left: 23px;
+  justify-content: left;
+}
+.price{
+  Font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  padding-left: 23px;
+  justify-content: right;
+
+}
+.to
+{
+  margin-top: 10px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  
+  justify-content: left;
+}
+.btn-checkout
+{
+  margin-top: 50px;
+  
+}
+.btn-checkout button{
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  height: 60px;
+  width: 450px;
+  margin-left: 25px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.bar{
+  background-color: #DADADA;
+  height: 2px;margin-top: 90px;
+}
+.remove a{
+  text-decoration: none;
+  color: rgba(255, 78, 78, 1);
+  ;
 }
 /*# sourceMappingURL=style.css.map */
