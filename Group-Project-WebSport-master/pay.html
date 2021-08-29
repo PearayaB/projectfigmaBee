@@ -18,20 +18,82 @@
     <title>Sport world</title>
 </head>
 
-<body>
+<body  class="bg-gray">
   <div class="logo">
     <img src="./image/icon_header/bag-white.svg" class="bag-white">              
   </div>
     <div class="section-header">
       <nav class="navbar navbar-white bg-white">
         <div class="container-fluid">
-          <div class="navwhite" href="#">
+          <div class="navbarwhite" href="#">
             <a>Home</a>
-            <img src="./image/icon_header/Bitmap.png" class="L-icon d-inline-block align-text-top">
+            <img src="\Group-Project-WebSport-master\image\icon_header\Bitmap2.png" class="L-icon d-inline-block align-text-top">
               <div class="h1CHECKOUT">CHECKOUT</div>            
           </div>
         </div>
       </nav>
     </div>
+    <div class="content"> 
+      <div class="row pay-content">
+        <div class="col pay-left">
+          <div class="payment">
+            <a>Payment</a>
+            <div class="row tab">
+              <button class="paypal">Paypal</button>
+              <button class="credit">Credit Card</button>
+              <button class="crash">Cash On Deelivery</button>
+            </div>
+          </div>
+            <a>Add Payment Details</a>
+            
+            <div class="row">
+              <div class="col">
+                <label>Card Number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+              </div>
+              <div class="col"><label for="expmonth">Expiry Date</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+              </div>
+              <div class="col">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>    
+            </div>
+            <label>Promo Code(If any)</label>
+            <div class="row">
+              <input type="text" id="Promo-code" name="promocode" placeholder="Enter code">
+              <button>promo</button>
+            </div> 
+            <label>Billing Adress</label> 
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Billing adress same as delivery address
+            </label>  
+            <div class="row">
+              <button>Back</button>
+              <button>Confirm Payment : $110.92</button>
+            </div>                              
+          </div>
+              
+              
+            
+      
+        <div class="col pay-right" >
+          <div class="h9">Summary</div>
+          <div class="row sub">
+              <div class="col subtotal">subtotal  </div>
+              <div class="col price">35,000</div>
+          </div>
+          <div class="bar"></div>
+          <div class="row to">
+              <div class="col total">Total  </div>
+              <div class="col price2">35,000</div>
+          </div>
+          <div class="row btn-checkout">
+              <button type="button" >Checkout   </button>
+          </div>
+      </div>
+      </div>
+  </div>
+
 </body>
 </html>
