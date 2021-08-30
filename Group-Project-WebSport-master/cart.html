@@ -15,10 +15,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    
     <title>Sport world</title>
 </head>
 
 <body>
+    
+</body>
   <div class="logo">
     <img src="./image/icon_header/bag-white.svg" class="bag-white">              
   </div>
@@ -41,7 +44,7 @@
                         <h6>Bag</h6> 
                     </div> 
                 </div>
-                <div class="row" id="row">
+                <!-- <div class="row" id="row">
                     <div class="col img-cart">
                         <img src="image\item\NIke.png" alt="">
                     </div>
@@ -83,7 +86,8 @@
                         </div>
                       
                     </div>
-                </div>
+                </div> -->
+                <div class="getproduct" id="getproduct"></div>
 
             </div>
             <div class="col cart-right" >
@@ -98,17 +102,14 @@
                     <div class="col price2">35,000</div>
                 </div>
                 <div class="row btn-checkout">
-                    <button type="button" >Checkout   </button>
+                    <button type="button" onclick="location.href = 'pay.html?id=${search}';" >Checkout   </button>
                 </div>
             </div>
         </div>
     </div>
 
-
-       
-           
-       
-  </body>
+<script src="cart.js"></script>
+  </body> 
   </html>
 
 

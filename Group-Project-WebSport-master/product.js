@@ -22,7 +22,7 @@ const getProduct = async () =>{
           </div>
         </div>
         <div class="Addtobag">
-          <button class="add">Add To Bag</button>
+        <button  onclick="location.href = 'cart.html?id=$';"><span>Add to bog</span></button>
         </div>
         <div class="Details">
           <h2>Product Details</h2>
