@@ -1,46 +1,13 @@
-var Get = {}
+var Get = {};
 const gettocart = () => {
-   Get = JSON.parse(localStorage.getItem("add"))
-}
+  Get = JSON.parse(localStorage.getItem("add"));
+};
 
-function remove(id) {
-  let con = confirm(`Do you want to remove`);
-  if (con == true) {
-    removeproduct(id);
-  } else {
-  }
-}
-
-function SelectAmount() {
-  let sum = 0;
-  const dataJson = JSON.parse(localStorage.getItem("products"));
-  for (i = 0; i < dataJson.length; i++) {
-    let amount = document.querySelector("#select" + dataJson[i].id).value;
-    let convert = parseInt(dataJson[i].price);
-    console.log("convert :>> ", convert);
-    sum += convert * parseInt(amount);
-    console.log("sum", sum);
-    document.querySelector(".sales").innerText = `${sum}`;
-    document.querySelector(".sales2").innerText = `${sum}`;
-    document.querySelector(".salerepo").innerText = `${sum}`;
-  }
-}
-function removeproduct(id) {
-  const Get = localStorage.getItem("carts");
-  const Gets = JSON.parse(Get);
-  console.log("Get :>> ", Gets);
-  console.log("id :>> ", id);
-  const remove = Gets.findIndex((item) => item.id === id);
-  console.log("Array :>> ", remove);
-  Gets.splice(remove, 1);
-  localStorage.setItem(`carts`, JSON.stringify(Gets));
-  location.reload();
-}
 const ShowData = () => {
   try {
     Get.map((products) => {
-          console.log(products);
-          document.getElementById("getproduct").innerHTML +=`
+      console.log(products);
+      document.getElementById("getproduct").innerHTML += `
           <div class="row" id="row">
                     <div class="col img-cart">
                        <img src="${products.pic}" alt="">
@@ -88,12 +55,12 @@ const ShowData = () => {
           
           
            
-        `
-    })
+        `;
+    });
   } catch (error) {
     console.log("error :>> ", error);
   }
 };
 gettocart();
 ShowData();
-console.log(Get)
+console.log(Get);
