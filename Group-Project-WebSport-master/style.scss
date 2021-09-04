@@ -175,9 +175,207 @@ footer {
   }
 }
 
-// ส่วนของ cart
-h6{
-  font-family: "Barlow";
+.h9
+{
+
   font-weight: 500;
-  font-size: 80px;
+  font-size: 40px;
+  color: #000000;
+  padding-left: 10px;
+  Font-style: Medium
+
 }
+
+.dropdown2 button{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  height: 50px;
+  width: max-content;
+  background-color:white ;
+  color: #000000;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.cart-drop{
+  width: 500px;
+  margin-top: 30px;
+}
+.textname
+{
+  margin-top: -30px;
+}
+.remove
+{
+  margin-top: 18px;
+ text-decoration: #B02B2B; 
+}
+.sub
+{
+  margin-top: 20px;
+}
+.subtotal
+{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  padding-left: 23px;
+  justify-content: left;
+}
+.price{
+  Font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  padding-left: 23px;
+  justify-content: right;
+
+}
+.to
+{
+  margin-top: 10px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000;
+  
+  justify-content: left;
+}
+.btn-checkout
+{
+  margin-top: 50px;
+  
+}
+.btn-checkout button{
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  height: 60px;
+  width: 450px;
+  margin-left: 25px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.bar{
+  background-color: #DADADA;
+  height: 2px;margin-top: 90px;
+}
+.remove a{
+  text-decoration: none;
+  color: rgba(255, 78, 78, 1);
+  ;
+}
+/*# sourceMappingURL=style.css.map */
+/*ส่วนของ PAY */
+.navwhite {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background-color: #ffffff;
+}
+
+.navwhite a {
+  position: absolute;
+  top: 21px;
+  height: 20px;
+  left: 161px;
+  right: 22.77%;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  letter-spacing: 0.08px;
+}
+
+.h1CHECKOUT
+{
+  position: absolute;
+  height: 25px;
+  left: 46.39%;
+  right: 46.39%;
+  top: calc(50% - 25px/2 + 0.5px);
+  
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.105px;
+  
+  color: #000000;
+}
+.pay-content{
+  width: 100%;
+  margin-left:0px ;
+  
+}
+.pay-left{
+  background-color: #FFFFFF;
+}
+.cart-right{
+  background-color: #F5F5F5;
+}
+.cart-left{
+  flex-basis: 575px;
+  
+}
+.pay-right{
+  background-color: #FFFFFF;
+}
+.paypal{
+  width: 130px;
+  margin-left: 13px;
+  margin-right: 25px;
+  border-color: rgba(190, 190, 190, 1);
+  background-color:#ffffff ;
+  border-style: solid;
+}
+.credit{
+  width: 175px;
+  
+  margin-right: 25px;
+  border-color: rgba(190, 190, 190, 1);
+  background-color:#ffffff ;
+  border-style: solid;}
+.crash{
+  width: 195px;
+    
+  margin-right: 20px;
+  border-color: rgba(190, 190, 190, 1);
+  background-color:#ffffff ;
+  border-style: solid;
+}
+.payment{
+  margin-top: 30px;
+  margin-left: 20px;
+  
+
+}
+.payment a{
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.09000000357627869px;
+  text-align: left;
+  
+  
+}
+.tab{
+  margin-top: 20px;
+}
+.tab button{
+  height: 50px;
+}
+
+

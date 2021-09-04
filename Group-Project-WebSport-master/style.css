@@ -16,6 +16,7 @@ body {
   top: -7px;
 }
 
+
 .navbarbg {
   color: white;
   position: absolute;
@@ -25,6 +26,19 @@ body {
   top: 0px;
   background-color: #000000;
 }
+.navbar-nav {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.navbar-nav a {
+  
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}
 .navbarwhite {
   color: rgb(0, 0, 0);
   position: absolute;
@@ -33,12 +47,16 @@ body {
   left: 0px;
   top: 0px;
   background-color: #ffffff;
+  display: flex;
+  
 }
+  
+
 .navbarwhite a {
   position: absolute;
+  width: 101px;
   top: 21px;
-  height: 20px;
-  
+  height: 40px;
   right: 22.77%;
   font-family: "Barlow";
   font-style: normal;
@@ -46,6 +64,7 @@ body {
   font-size: 18px;
   line-height: 19px;
   letter-spacing: 0.08px;
+
 }
 
 .navbarbg a {
@@ -60,6 +79,7 @@ body {
   font-size: 18px;
   line-height: 19px;
   letter-spacing: 0.08px;
+  display: flex;
 }
 
 .R-icon {
@@ -78,6 +98,8 @@ body {
   padding: 0 75px;
   width: 100%;
   height: 60px;
+  
+
 }
 
 .container {
@@ -203,7 +225,7 @@ footer {
   margin-left: 3px;
 }
 .content img{
-  width: 950px;
+  width: 60vmin;
   
 }
 .bg-red{
@@ -312,11 +334,9 @@ h6{
 }
 .img-cart img
 {
-  width: 300px;
+  width: 50vmin;
 }
-.img-cart{
-  margin-right: -400px;
-}
+
 
 
 /**ส่วนของ cart **/
@@ -332,6 +352,7 @@ h6{
 }
 
 .dropdown2 button{
+
   margin-top: 10px;
   margin-bottom: 20px;
   height: 50px;
@@ -349,10 +370,12 @@ h6{
 }
 .textname
 {
+
   margin-top: -30px;
 }
 .remove
 {
+
   margin-top: 18px;
  text-decoration: #B02B2B; 
 }
@@ -362,6 +385,7 @@ h6{
 }
 .subtotal
 {
+ 
   font-style: normal;
   font-weight: 500;
   font-size: 25px;
@@ -370,6 +394,7 @@ h6{
   justify-content: left;
 }
 .price{
+
   Font-family: Barlow;
   font-style: normal;
   font-weight: 500;
@@ -392,6 +417,7 @@ h6{
 }
 .btn-checkout
 {
+
   margin-top: 50px;
   
 }
@@ -400,8 +426,9 @@ h6{
   border: none;
   color: #FFFFFF;
   height: 60px;
-  width: 450px;
-  margin-left: 25px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 80px;
   margin-bottom: 30px;
 }
@@ -465,9 +492,13 @@ h6{
 }
 .pay-left{
   background-color: #FFFFFF;
+  flex-basis: 35%;
+  
 }
 .cart-right{
   background-color: #F5F5F5;
+  height: fit-content;
+  
 }
 .cart-left{
   flex-basis: 575px;
@@ -475,34 +506,43 @@ h6{
 }
 .pay-right{
   background-color: #FFFFFF;
+  margin-left: 20px;
+  
 }
-.paypal{
-  width: 130px;
+.payment button{
+  width:200px;
   margin-left: 13px;
   margin-right: 25px;
   border-color: rgba(190, 190, 190, 1);
   background-color:#ffffff ;
   border-style: solid;
 }
-.credit{
-  width: 175px;
+.promobtn{
+  margin-left: 10px;
+  width:40%;
+  display: flex;
+  flex-direction: row;
   
-  margin-right: 25px;
-  border-color: rgba(190, 190, 190, 1);
-  background-color:#ffffff ;
-  border-style: solid;}
-.crash{
-  width: 195px;
-    
-  margin-right: 20px;
-  border-color: rgba(190, 190, 190, 1);
-  background-color:#ffffff ;
-  border-style: solid;
+}
+.promobtn input{
+  display: flex;
+  flex-direction: column;
+  flex-basis:50%;
+  
+}
+.promobtn button{
+  margin-left: -21px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 10%;
+  background-color: black;
+  color: white;
+  
 }
 .payment{
   margin-top: 30px;
   margin-left: 20px;
-  
+  padding-right: 20px;
 
 }
 .payment a{
@@ -513,14 +553,27 @@ h6{
   line-height: 22px;
   letter-spacing: 0.09000000357627869px;
   text-align: left;
+
+ 
+}
+.payment input{
+  margin-right: 20px;
+  width: 100%;
   
-  
+
 }
 .tab{
   margin-top: 20px;
 }
 .tab button{
   height: 50px;
+}
+.enter{
+  margin-top: 0px;
+}
+.checkb input{
+  width: fit-content;
+
 }
 
 
